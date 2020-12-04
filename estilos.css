@@ -1,0 +1,26 @@
+*{
+    text-align: center;
+}
+input{
+      font: Century Gothic ;
+
+    padding:0.5em;
+    text-align: center;
+    width:30%;
+     border:1px solid; /*cambia grosor*/
+    border-radius:20px; /*cambia forma de los inputs*/
+
+}
+label{
+ font-family: Century Gothic; /*Usa esta fuente*/
+ font-weight: bold; /*negrita*/
+ font-weight: 500; /*cambia grosor*/
+   
+    font-size: 20px;
+    margin:21px;
+}
+a{
+  list-style: none;  
+    
+}
+

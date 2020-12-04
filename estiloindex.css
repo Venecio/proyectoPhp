@@ -1,0 +1,10 @@
+  li{
+  list-style: none;  
+  text-decoration: none;
+    border:1px solid;
+    border-radius:30px;
+   
+}
+a{
+    text-decoration: none;
+}

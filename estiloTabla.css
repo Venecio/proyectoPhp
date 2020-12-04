@@ -1,0 +1,28 @@
+*{
+   font-family: Century Gothic; 
+   
+}
+h2{
+    font-family: Century Gothic; 
+    text-align: center;
+    color: white;
+}
+table{
+    width: 100%;
+    
+}
+
+th{
+    text-align: center
+    
+    
+}
+
+
+
+td {
+    color: black;
+  border: 1px solid black;
+ 
+  
+}
