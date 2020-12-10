@@ -1,0 +1,26 @@
+<?php
+
+class conectar {
+
+    private $server = "localhost";
+    private $user = "Venecio";
+    private $bd_name = "basephp";
+    private $password = "2277";
+
+    public function conexion() {
+        $conexion = mysqli_connect($this->server,
+                $this->user,
+                $this->password,
+                $this->bd_name);
+
+        return $conexion;
+    }
+
+}
+$obj=new conectar();
+if($obj->conexion()){
+    echo "Conectado";
+    
+}else{
+    echo "Conexion fallida";
+}
