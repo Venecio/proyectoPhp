@@ -1,0 +1,23 @@
+ROP DATABASE IF EXISTS basephp;
+CREATE DATABASE basephp CHARACTER SET utf8mb4;
+USE basephp;
+
+CREATE TABLE materia (
+  id INT(11) AUTO_INCREMENT PRIMARY KEY,
+  nombre VARCHAR(20) NOT NULL,
+  curso VARCHAR(3) NOT NULL,
+  carrera VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE tabla1 (
+  id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  apellido VARCHAR(100) NOT NULL,
+  nombres VARCHAR(32) NOT NULL,
+  edad INT(11) NOT NULL,
+  email VARCHAR(32) NOT NULL
+);
+
+CREATE TABLE inscripcion (
+  idalumno INT(11) NOT NULL,
+  idmateria INT(11) NOT NULL
+);
